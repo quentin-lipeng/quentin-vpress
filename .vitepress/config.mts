@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Quentin world",
-  base: "/quentin-vpress/",
+  assetsDir: "/quentin-vpress/",
   description: "A website about full stack learning road.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
